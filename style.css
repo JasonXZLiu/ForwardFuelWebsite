@@ -1,6 +1,7 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
 }
 a,
 a:focus,
@@ -20,16 +21,27 @@ body {
   height: 100%;
   background-color: #fff;
 }
+.navbar {
+  background: black;
+  opacity: 0.85;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+}
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 80%;
-  background-color: #333;
-  margin: none; 
+  height: 100%;
+  background-image: url("http://i.telegraph.co.uk/multimedia/archive/02401/energy-lean_2401626b.jpg");
+  background-size: 100%;
+  margin-top: none; 
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   padding: none;
+  position: relative;
+  top: 0%;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -99,8 +111,11 @@ body {
   }
 }
 .row {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#mainDescriptionRow {
+  padding: 2%;
 }
 .text {
   width: 300px;
@@ -112,7 +127,32 @@ body {
   border: none;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
-  width: 200px;
   border-radius: 50%;
+  height: 175px;
+  width: 175px;
+ }
+ .description {
+  width: 60%;
+  margin-left: 30%;
+  margin-right: auto;
+ }
+ #secondaryDescriptionRow {
+  background-image: url("http://i.telegraph.co.uk/multimedia/archive/02401/energy-lean_2401626b.jpg");
+  background-size: 100%;
+ }
+ #secondaryDescription {
+  margin-right: 30%;
+  margin-left: auto;
+  margin-bottom: 10%;
+  color: white;
+ }
+ #heatImage {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+ }
+#footer {
+  background-color: black;
+  color: white;
  }

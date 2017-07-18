@@ -2,25 +2,40 @@
 <html>
 	<head>
 		<title>[insert title here]</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="static/css/bootstrap-responsive.css" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<div class="navbar-wrapper">
+	        <nav class="navbar navbar-inverse navbar-static-top offset-3 pull right">
+	          <div class="container">
+	            <div class="navbar-header">
+	              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	              </button>
+	              <a class="navbar-brand pull left" href="#">Project name</a>
+	            </div>
+	            <div id="navbar" class="navbar-collapse collapse">
+	              <ul class="nav navbar-nav">
+	                    <li><a href="">Features</a>
+	                    </li>
+	                    <li><a href="">Pricing</a>
+	                    </li>
+	                    <li><a href="">Contact Us</a>
+	                    </li>
+	                </ul>
+	            </div>
+	          </div>
+	        </nav>
+     	</div>
 	    <div class="site-wrapper">
 	      <div class="site-wrapper-inner">
 	        <div class="container">
-	          <div class="masthead clearfix">
-	            <div class="container inner">
-	              <h3 class="masthead-brand">[insert title here]</h3>
-	              <nav>
-	                <ul class="nav masthead-nav">
-	                  <li class="active"><a href="#">Home</a></li>
-	                  <li><a href="#">Features</a></li>
-	                  <li><a href="#">Contact</a></li>
-	                </ul>
-	              </nav>
-	            </div>
-	          </div>
 	          <div class="inner cover">
 	            <h1 class="cover-heading">[insert title here]</h1>
 	            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
@@ -31,35 +46,63 @@
 	        </div>
 	      </div>
 	    </div>
-	    <div class="row">
-			
+	    <div class="row" id="mainDescriptionRow">
+			<div class="col-md-6">
+				<div class="description">
+					<h1 class="descriptionHeader">Lorem Ipsum</h1>
+					<p class="descriptionText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img class="productPhoto" src="">
+			</div>
 		</div>
-		<div class="row">
+		<div class="row" id="secondaryDescriptionRow">
+			<div class="col-md-6">
+				<img class="productPhoto" src="">
+			</div>
+			<div class="col-md-6">
+				<div class="description" id="secondaryDescription">
+					<h1 class="descriptionHeader">Lorem Ipsum</h1>
+					<p class="descriptionText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="descriptionRow">
 			<div class="col-md-1"></div>
 			<div class="col-md-10">
 				<div class="col-md-4">
-					<img class="thumbnail" src="https://www.w3schools.com/css/img_fjords.jpg">
+					<img class="thumbnail" src="./images/bulb.jpg">
 					<div class="text">
-						<h1 class="header">Header</h1>
+						<h1 class="header">Light</h1>
 						<p class="caption">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<img class="thumbnail" src="https://www.w3schools.com/css/img_fjords.jpg">
+					<img class="thumbnail" src="./images/plug.jpg">
 					<div class="text">
-						<h1 class="header">Header</h1>
+						<h1 class="header">Output</h1>
 						<p class="caption">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<img class="thumbnail" src="https://www.w3schools.com/css/img_fjords.jpg">
+					<img class="thumbnail" id="heatImage" src="./images/heat.png">
 					<div class="text">
-						<h1 class="header">Header</h1>
+						<h1 class="header">Heat</h1>
 						<p class="caption">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-1"></div>
+		</div>
+		<div class="row" id="footer">
+			<div class="col-md-6">
+				<h1 class="descriptionHeader">Contact Us</h1>
+				<p class="descriptionText">blah</p>
+			</div>
+			<div class="col-md-6">
+				<img class="productPhoto" src="">
+			</div>
 		</div>
 	</body>
 </html>
