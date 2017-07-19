@@ -29,14 +29,20 @@ body {
   right: 0px;
   position: fixed;
 }
+.backgroundSiteWrapper {
+  background-color: black;
+  padding: none;
+  margin: none;
+  height: 100%;
+}
 .site-wrapper {
   display: table;
   width: 100%;
   height: 100%;
-  background-image: url("http://i.telegraph.co.uk/multimedia/archive/02401/energy-lean_2401626b.jpg");
+  filter: alpha(opacity=20);
+  background-image: url("http://idolza.com/a/f/b/black-white-interior-design-room-wallpaper-hd-bedroom_black-and-white-wallpaper-bedroom_bedroom-room-designs-house-decor-design-bedding-ideas-kids-photo-gallery-for-walls-interio.jpg");
   background-size: 100%;
   margin-top: none; 
-  color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   padding: none;
@@ -53,6 +59,8 @@ body {
 }
 .inner {
   padding: 30px;
+  z-index: 1; 
+  color: #fff;
 }
 .masthead-brand {
   margin-top: 10px;
@@ -110,6 +118,10 @@ body {
     vertical-align: middle;
   }
 }
+.cover-heading {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .row {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -136,11 +148,15 @@ body {
   margin-left: 30%;
   margin-right: auto;
  }
+ #descriptionRow {
+  margin-bottom: 2%;
+ }
  #secondaryDescriptionRow {
   background-image: url("http://i.telegraph.co.uk/multimedia/archive/02401/energy-lean_2401626b.jpg");
   background-size: 100%;
  }
  #secondaryDescription {
+  margin-top: 10%;
   margin-right: 30%;
   margin-left: auto;
   margin-bottom: 10%;
@@ -155,4 +171,14 @@ body {
 #footer {
   background-color: black;
   color: white;
- }
+  margin-bottom: 0px;
+  padding: 3%;
+}
+.footerSocial {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.footerSocial:hover {
+  opacity: 0.4;
+}
