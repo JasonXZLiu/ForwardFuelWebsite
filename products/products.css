@@ -8,6 +8,14 @@ a:focus,
 a:hover {
   color: #fff;
 }
+p {
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  cursor: pointer;
+}
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -36,14 +44,14 @@ body {
   background-color: black;
   padding: none;
   margin: none;
-  height: 100%;
+  height: 60%;
 }
 .site-wrapper {
   display: table;
   width: 100%;
   height: 100%;
   filter: alpha(opacity=20);
-  background-image: url("http://i.telegraph.co.uk/multimedia/archive/02401/energy-lean_2401626b.jpg");
+  background-image: url("../images/mountain.jpg");
   background-size: 100%;
   margin-top: none; 
   text-align: center;
@@ -126,8 +134,8 @@ body {
   margin-bottom: auto;
 }
 .row {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 #mainDescriptionRow {
   padding: 2%;
@@ -166,30 +174,101 @@ body {
   margin-left: 30%;
   margin-right: auto;
  }
+ .quote {
+  margin-bottom: 1%;
+ }
  .productPhoto {
-  height: 300px;
+  height: 250px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 10%;
   display: block;
  }
  #descriptionPhoto {
   width: 60%;
  }
  #descriptionRow {
-  margin-bottom: 2%;
+  margin-bottom: 1%;
  }
  #secondaryDescriptionRow {
-  background-image: url("http://i.telegraph.co.uk/multimedia/archive/02401/energy-lean_2401626b.jpg");
+  background-image: url("../images/road.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
  }
  #secondaryDescription {
-  margin-top: 10%;
-  margin-right: 30%;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: 10%;
+  margin-bottom: 3%;
+ }
+ #leftSecondaryDescription {
+  margin-top: 2%;
+  margin-right: 10%;
   margin-left: auto;
-  margin-bottom: 10%;
-  color: white;
+  margin-bottom: 2%;
+ }
+ #border {
+  border-right: thick double white;
+ }
+ #biodieselDescription {
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: auto;
+  margin-bottom: 2%;
+ }
+ .label {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+  color: black;
+  white-space: nowrap;
+ }
+ hr {
+  background-color: black;
+  height: 1px;
+  width: 60%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+ }
+ .teamHeader {
+  text-align: center;
+  color: black;
+ }
+ .teamDescription {
+  text-align: center;
+  width: 40%;
+  overflow: visible;
+  font-size: 14px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+ }
+ .profilePic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-clip: padding-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: center center;
+ }
+ .profilePic:hover {
+  opacity: 0.6;
+ }
+ .bio {
+  text-align: center;
+ }
+ .biodieselCar {
+  height: 80%;
+  margin-left: 2%;
+  margin-right: auto;
  }
 #footer {
   background-color: black;
@@ -204,4 +283,10 @@ body {
 }
 .footerSocial:hover {
   opacity: 0.4;
+}
+.footerLogo {
+  width: 100%;
+}
+#secondRow {
+  margin-bottom: 5%;
 }

@@ -8,6 +8,14 @@ a:focus,
 a:hover {
   color: #fff;
 }
+p {
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  cursor: pointer;
+}
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -126,8 +134,8 @@ body {
   margin-bottom: auto;
 }
 .row {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 #mainDescriptionRow {
   padding: 2%;
@@ -178,13 +186,66 @@ body {
   width: 60%;
  }
  #descriptionRow {
-  margin-bottom: 2%;
+  margin-bottom: 1%;
  }
  #secondaryDescription {
-  margin-top: 10%;
-  margin-right: 30%;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: 10%;
+  margin-bottom: 3%;
+ }
+ #secondaryDescriptionPhoto {
+  margin-top: 5%;
+  margin-right: 10%;
   margin-left: auto;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
+ }
+ .label {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+  color: black;
+  white-space: nowrap;
+ }
+ hr {
+  background-color: black;
+  height: 1px;
+  width: 60%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+ }
+ .teamHeader {
+  text-align: center;
+  color: black;
+ }
+ .teamDescription {
+  text-align: center;
+  width: 40%;
+  overflow: visible;
+  font-size: 14px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+ }
+ .profilePic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-clip: padding-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: center center;
+ }
+ .profilePic:hover {
+  opacity: 0.6;
+ }
+ .bio {
+  text-align: center;
  }
 #footer {
   background-color: black;
@@ -199,4 +260,10 @@ body {
 }
 .footerSocial:hover {
   opacity: 0.4;
+}
+.footerLogo {
+  width: 100%;
+}
+#secondRow {
+  margin-bottom: 5%;
 }
