@@ -51,7 +51,7 @@ body {
   width: 100%;
   height: 100%;
   filter: alpha(opacity=20);
-  background-image: url("../images/trucks.jpg");
+  background-image: url("../images/desk.jpg");
   background-size: 100%;
   margin-top: none; 
   text-align: center;
@@ -176,6 +176,7 @@ body {
  }
  .quote {
   margin-bottom: 1%;
+  font-size: 40px;
  }
  .productPhoto {
   height: 250px;
@@ -289,6 +290,12 @@ body {
 }
 #secondRow {
   margin-bottom: 5%;
+}
+.text {
+  margin-left: 10%;
+  margin-right: auto;
+  width: 40%;
+  text-align: left;
 }
 .logo {
   width: 100%;
