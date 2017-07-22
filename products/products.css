@@ -209,9 +209,6 @@ body {
   margin-left: auto;
   margin-bottom: 2%;
  }
- #border {
-  border-right: thick double white;
- }
  #biodieselDescription {
   margin-top: 2%;
   margin-right: 10%;
@@ -266,8 +263,9 @@ body {
   text-align: center;
  }
  .biodieselCar {
-  height: 80%;
-  margin-left: 2%;
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 0%;
   margin-right: auto;
  }
 #footer {
