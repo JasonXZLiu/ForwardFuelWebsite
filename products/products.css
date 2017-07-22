@@ -19,9 +19,9 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: black;
   text-shadow: none; 
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #fff;
 }
 html,
@@ -287,4 +287,9 @@ body {
 }
 #secondRow {
   margin-bottom: 5%;
+}
+#inquiry {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
 }
